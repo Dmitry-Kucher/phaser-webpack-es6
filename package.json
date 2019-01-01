@@ -1,9 +1,15 @@
 {
-  "name": "Phaser Webpack ES6",
+  "name": "phaser-webpack-es6",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "phaser-ce": "^2.11.1"
+  },
   "devDependencies": {
-    "webpack": "^4.17.1",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "expose-loader": "^0.7.5",
+    "webpack": "^4.28.3",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.6"
   },
