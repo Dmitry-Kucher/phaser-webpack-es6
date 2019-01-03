@@ -8,12 +8,12 @@ but based on webpack as builder for JS application.
 ## Ananlogs
 
 [Phaser-ES6-Webpack](https://github.com/lean/phaser-es6-webpack) also webpack based system for phaser.    
-Pros:
+**Pros**:
 
 * Ready for all platforms (cordova based for mobile platform)
 * Highly customizable (includes webfontloader, predefined width/height config)
 
-Cons:
+**Cons**:
 
 * Webpack v3
 * Smaller game states lifecycle (3 state instead 5)
@@ -30,9 +30,12 @@ Navigate to yor destination directory and run:
 
 ### 2. Manually remove link to boilerplate git repository:
 
-Navigate to recently cloned directory:    
-`cd phaser-webpack-es6`    
-And remove **.git** directory:    
+Navigate to recently cloned directory:
+
+`cd phaser-webpack-es6`
+
+And remove **.git** directory:
+
 `rm -rf .git`
 
 ### 3. Install npm dependencies:
@@ -41,4 +44,4 @@ And remove **.git** directory:
 
 ### 4. Run development server:
 
-`npm run start:deb`
+`npm run start:dev`
