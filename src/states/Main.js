@@ -1,3 +1,4 @@
+import Phaser from 'phaser';
 import ExampleObject from '../objects/ExampleObject';
 
 class Main extends Phaser.State {

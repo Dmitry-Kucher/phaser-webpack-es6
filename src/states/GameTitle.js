@@ -1,3 +1,5 @@
+import Phaser from 'phaser';
+
 class GameTitle extends Phaser.State {
 
 	create() {

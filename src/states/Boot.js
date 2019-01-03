@@ -1,3 +1,5 @@
+import Phaser from 'phaser';
+
 class Boot extends Phaser.State {
 
 	preload() {
