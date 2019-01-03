@@ -24,7 +24,7 @@ module.exports = {
     },
     devtool: 'source-map',
     devServer: {
-        contentBase: path.resolve(__dirname, 'dist'),
+        contentBase: path.resolve(__dirname, 'static'),
         publicPath: '/',
         port: 9005,
     },
