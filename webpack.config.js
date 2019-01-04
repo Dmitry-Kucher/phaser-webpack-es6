@@ -19,7 +19,7 @@ module.exports = {
     output: {
         pathinfo: true,
         path: path.resolve(__dirname, 'dist'),
-        publicPath: path.resolve(__dirname, '/'),
+        publicPath: './',
         filename: 'js/[name].js'
     },
     devtool: 'source-map',
@@ -28,7 +28,6 @@ module.exports = {
         publicPath: '/',
         port: 9005,
     },
-    watch: true,
     plugins: [new HtmlWebpackPlugin({
         filename: path.resolve(__dirname, 'dist/index.html'),
         template: path.resolve(__dirname, 'src/index.html')
